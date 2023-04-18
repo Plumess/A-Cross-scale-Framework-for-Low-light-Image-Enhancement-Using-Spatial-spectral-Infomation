@@ -65,5 +65,4 @@ If you use our code, please cite our paper.
 ### Notes
 
 - You need to change the dataset path when testing or training your images, and you need to pay attention to the pack function in dataset.py when you test raw images captured by other devices.
-- This code uses window attention, so the image is sliced to a square for testing and training purposes. If you need to process the image at full size, you can implement it yourself, e.g. interpolate it as a square first, and then restore it after low light enhancement.
 - If you have any questions and do not receive a timely response, you can also contact the first author of the paper: [https://github.com/Volodymyr233](https://github.com/Volodymyr233)
