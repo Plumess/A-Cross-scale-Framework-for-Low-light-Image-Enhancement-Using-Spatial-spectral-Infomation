@@ -39,7 +39,7 @@ Additionally:
 - *dataset_LOL.py* is the code for preprocessing and loading LOL dataset.
 - *psnr.py & utils.py* are some auxiliary codes
 
-Since window attention is in a square window, the original image is cropped to a fixed size square patch for both testing and training in the code. If you wish to train and test at full size, please refer to the modifications to the SpectralTransform, LeFF, LeWinTransformer, Input, Output and ResLeWinTransformerLayer's forward methods in *model_fullSize.py*, And the hiding of the crop operation in *dataset_sony_fullSize.py*.
+Since 'window attention' is in a square window, the original image is cropped to a fixed size square patch for both testing and training in the code. If you wish to train and test at full size, please refer to the modifications to the SpectralTransform, LeFF, LeWinTransformer, Input, Output and ResLeWinTransformerLayer's forward methods in *model_fullSize.py*, And the hiding of the crop operation in *dataset_sony_fullSize.py*.
 
 ---
 
